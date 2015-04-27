@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: myapp
+  pool: 5
+  username: rails_dev
+  password: lunes1100
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: myapp_test
+  pool: 5
+  username: rails_dev
+  password: lunes1100
